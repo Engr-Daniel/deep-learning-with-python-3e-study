@@ -1,0 +1,128 @@
+{
+  "book": "Deep Learning with Python, Third Edition",
+  "official_chapters": "https://deeplearningwithpython.io/chapters/",
+  "daily_minimum_pages": 5,
+  "chapter_count": 20,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "What is deep learning?",
+      "url": "https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/",
+      "directory": "chapters/ch01-what-is-deep-learning"
+    },
+    {
+      "number": 2,
+      "title": "The mathematical building blocks of neural networks",
+      "url": "https://deeplearningwithpython.io/chapters/chapter02_mathematical-building-blocks/",
+      "directory": "chapters/ch02-mathematical-building-blocks"
+    },
+    {
+      "number": 3,
+      "title": "Introduction to TensorFlow, PyTorch, JAX, and Keras",
+      "url": "https://deeplearningwithpython.io/chapters/chapter03_introduction-to-ml-frameworks/",
+      "directory": "chapters/ch03-ml-frameworks"
+    },
+    {
+      "number": 4,
+      "title": "Classification and regression",
+      "url": "https://deeplearningwithpython.io/chapters/chapter04_classification-and-regression/",
+      "directory": "chapters/ch04-classification-and-regression"
+    },
+    {
+      "number": 5,
+      "title": "Fundamentals of machine learning",
+      "url": "https://deeplearningwithpython.io/chapters/chapter05_fundamentals-of-ml/",
+      "directory": "chapters/ch05-fundamentals-of-ml"
+    },
+    {
+      "number": 6,
+      "title": "The universal workflow of machine learning",
+      "url": "https://deeplearningwithpython.io/chapters/chapter06_universal-workflow-of-ml/",
+      "directory": "chapters/ch06-universal-ml-workflow"
+    },
+    {
+      "number": 7,
+      "title": "A deep dive on Keras",
+      "url": "https://deeplearningwithpython.io/chapters/chapter07_deep-dive-keras/",
+      "directory": "chapters/ch07-deep-dive-keras"
+    },
+    {
+      "number": 8,
+      "title": "Image classification",
+      "url": "https://deeplearningwithpython.io/chapters/chapter08_image-classification/",
+      "directory": "chapters/ch08-image-classification"
+    },
+    {
+      "number": 9,
+      "title": "ConvNet architecture patterns",
+      "url": "https://deeplearningwithpython.io/chapters/chapter09_convnet-architecture-patterns/",
+      "directory": "chapters/ch09-convnet-architecture-patterns"
+    },
+    {
+      "number": 10,
+      "title": "Interpreting what ConvNets learn",
+      "url": "https://deeplearningwithpython.io/chapters/chapter10_interpreting-what-convnets-learn/",
+      "directory": "chapters/ch10-interpreting-convnets"
+    },
+    {
+      "number": 11,
+      "title": "Image segmentation",
+      "url": "https://deeplearningwithpython.io/chapters/chapter11_image-segmentation/",
+      "directory": "chapters/ch11-image-segmentation"
+    },
+    {
+      "number": 12,
+      "title": "Object detection",
+      "url": "https://deeplearningwithpython.io/chapters/chapter12_object-detection/",
+      "directory": "chapters/ch12-object-detection"
+    },
+    {
+      "number": 13,
+      "title": "Timeseries forecasting",
+      "url": "https://deeplearningwithpython.io/chapters/chapter13_timeseries-forecasting/",
+      "directory": "chapters/ch13-timeseries-forecasting"
+    },
+    {
+      "number": 14,
+      "title": "Text classification",
+      "url": "https://deeplearningwithpython.io/chapters/chapter14_text-classification/",
+      "directory": "chapters/ch14-text-classification"
+    },
+    {
+      "number": 15,
+      "title": "Language models and the Transformer",
+      "url": "https://deeplearningwithpython.io/chapters/chapter15_language-models-and-the-transformer/",
+      "directory": "chapters/ch15-language-models-transformer"
+    },
+    {
+      "number": 16,
+      "title": "Text generation",
+      "url": "https://deeplearningwithpython.io/chapters/chapter16_text-generation/",
+      "directory": "chapters/ch16-text-generation"
+    },
+    {
+      "number": 17,
+      "title": "Image generation",
+      "url": "https://deeplearningwithpython.io/chapters/chapter17_image-generation/",
+      "directory": "chapters/ch17-image-generation"
+    },
+    {
+      "number": 18,
+      "title": "Best practices for the real world",
+      "url": "https://deeplearningwithpython.io/chapters/chapter18_best-practices-for-the-real-world/",
+      "directory": "chapters/ch18-real-world-best-practices"
+    },
+    {
+      "number": 19,
+      "title": "The future of AI",
+      "url": "https://deeplearningwithpython.io/chapters/chapter19_future_of_ai/",
+      "directory": "chapters/ch19-future-of-ai"
+    },
+    {
+      "number": 20,
+      "title": "Conclusions",
+      "url": "https://deeplearningwithpython.io/chapters/chapter20_conclusion/",
+      "directory": "chapters/ch20-conclusions"
+    }
+  ]
+}

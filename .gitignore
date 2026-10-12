@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and model artifacts
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.weights.h5
+*.onnx
+*.tflite
+*.npz
+*.npy
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Local datasets / large outputs
+/data/raw/
+/data/downloads/
+outputs/tmp/
+
+# Secrets
+*.pem
+*.key
+.env.*

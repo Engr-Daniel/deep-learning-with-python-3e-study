@@ -1,0 +1,3 @@
+# Install chapter-specific packages only when needed.
+# Examples may include NLP, vision, tuning, and model-hub utilities.
+# Keep this file intentional rather than installing a large stack on day one.
