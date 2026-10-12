@@ -17,10 +17,10 @@ Complete **Deep Learning with Python, Third Edition** in full, chapter by chapte
 
 ## Current task
 
-**Phase:** Start of study program  
-**Chapter:** Chapter 1 — What is deep learning?  
-**Status:** Ready to begin  
-**Next action:** Start the first reading session, record the exact pages covered, and create the first daily log.
+**Phase:** Chapter 2 reading and practice
+**Chapter:** Chapter 2 — The mathematical building blocks of neural networks
+**Status:** Chapter 1 complete; ready to begin Chapter 2
+**Next action:** Read from the beginning of Chapter 2, targeting at least 5 pages. Follow its actual section structure and execute runnable examples as encountered.
 
 ## Session protocol
 

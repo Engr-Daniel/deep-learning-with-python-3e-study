@@ -8,7 +8,7 @@ A chapter-by-chapter learning and code-execution repository for working through 
 - Read the book in order, Chapter 1 through Chapter 20.
 - Execute every meaningful code example rather than only reading it.
 - Record outputs, failures, fixes, questions, and reflections.
-- Do not mark a chapter complete until both reading and practical work are complete.
+- Complete reading, notes, recap, and all applicable practical work before marking a chapter complete. Conceptual chapters can mark code work not applicable.
 
 ## What belongs here
 
@@ -21,7 +21,7 @@ This repository stores **original study notes, code written while following the 
 
 | Chapter | Online textbook | Study workspace |
 |---:|---|---|
-| 01 | [What is deep learning?](https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/) | [Notes, code, and exercises](chapters/ch01-what-is-deep-learning/README.md) |
+| 01 | [What is deep learning?](https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/) | [Notes and figures](chapters/ch01-what-is-deep-learning/NOTES.md) |
 | 02 | [The mathematical building blocks of neural networks](https://deeplearningwithpython.io/chapters/chapter02_mathematical-building-blocks/) | [Notes, code, and exercises](chapters/ch02-mathematical-building-blocks/README.md) |
 | 03 | [Introduction to TensorFlow, PyTorch, JAX, and Keras](https://deeplearningwithpython.io/chapters/chapter03_introduction-to-ml-frameworks/) | [Notes, code, and exercises](chapters/ch03-ml-frameworks/README.md) |
 | 04 | [Classification and regression](https://deeplearningwithpython.io/chapters/chapter04_classification-and-regression/) | [Notes, code, and exercises](chapters/ch04-classification-and-regression/README.md) |
@@ -56,6 +56,8 @@ This repository stores **original study notes, code written while following the 
 - `environment/` — reproducible environment guidance and optional backend requirements.
 - `scripts/` — small utilities for environment checks and progress validation.
 - `tests/` — tests for study utilities or adapted exercises when useful.
+
+Each chapter workspace follows its actual content and section order. Create code, notebook, experiment, output folders, and run logs only when applicable. Chapter 1 uses NOTES.md as its main artifact.
 
 ## Daily workflow
 
