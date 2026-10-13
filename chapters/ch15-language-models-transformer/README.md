@@ -23,3 +23,13 @@ Official online chapter: [Chapter 15 - Language models and the Transformer](http
 - [ ] End-of-chapter recap written.
 - [ ] `study/PROGRESS.md` updated.
 - [ ] `MEMORY.md` resume point updated.
+
+## Companion notebook
+
+- [Study notebook](notebooks/chapter15_language-models-and-the-transformer.ipynb)
+- [Open study copy in Colab](https://colab.research.google.com/github/Engr-Daniel/deep-learning-with-python-3e-study/blob/main/chapters/ch15-language-models-transformer/notebooks/chapter15_language-models-and-the-transformer.ipynb)
+- [Official source](https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter15_language-models-and-the-transformer.ipynb)
+- [Open official copy in Colab](https://colab.research.google.com/github/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter15_language-models-and-the-transformer.ipynb)
+- [Preparation and environment change record](NOTEBOOK_CHANGES.md)
+
+Execution status: **Not run**. Run sections in chapter order, inspect outputs, and record actual Colab environment and results in RUN_LOG.md.

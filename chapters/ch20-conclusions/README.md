@@ -22,3 +22,7 @@ Official online chapter: [Chapter 20 - Conclusions](https://deeplearningwithpyth
 - [ ] End-of-chapter recap written.
 - [ ] `study/PROGRESS.md` updated.
 - [ ] `MEMORY.md` resume point updated.
+
+## Companion notebook
+
+[Official notebook repository](https://github.com/fchollet/deep-learning-with-python-notebooks). No third-edition notebook is published for Chapter 20 at the recorded revision. No placeholder notebook has been created. Follow the chapter text and use notes as appropriate.

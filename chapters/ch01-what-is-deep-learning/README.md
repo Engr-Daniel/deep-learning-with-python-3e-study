@@ -21,3 +21,7 @@ This conceptual chapter needs no code, notebooks, experiments, generated outputs
 Status: **Complete**.
 
 Next reading: **Beginning of Chapter 2 - The mathematical building blocks of neural networks**.
+
+## Companion notebook
+
+[Official notebook repository](https://github.com/fchollet/deep-learning-with-python-notebooks). No third-edition notebook is published for Chapter 1 at the recorded revision. No placeholder notebook has been created. Follow the chapter text and use notes as appropriate.

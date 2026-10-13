@@ -40,3 +40,9 @@ outputs/tmp/
 *.pem
 *.key
 .env.*
+
+# Downloaded upstream cache (sources are tracked via study/notebook_sources.json)
+.notebook-source/
+.upstream-notebooks/
+.upstream-commit.json
+.upstream-tree.json

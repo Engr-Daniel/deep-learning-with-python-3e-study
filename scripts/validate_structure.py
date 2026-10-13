@@ -14,9 +14,13 @@ chapter_dirs = sorted((ROOT / "chapters").glob("ch*"))
 if len(chapter_dirs) != 20:
     missing.append(f"expected 20 chapter directories, found {len(chapter_dirs)}")
 for d in chapter_dirs:
-    for name in ["README.md", "NOTES.md", "EXERCISES.md", "RUN_LOG.md"]:
+    for name in ["README.md", "NOTES.md"]:
         if not (d / name).exists():
             missing.append(str((d / name).relative_to(ROOT)))
+    if list((d / "notebooks").glob("*.ipynb")):
+        for name in ["RUN_LOG.md", "NOTEBOOK_CHANGES.md"]:
+            if not (d / name).exists():
+                missing.append(str((d / name).relative_to(ROOT)))
 if missing:
     raise SystemExit("Structure check failed:\n- " + "\n- ".join(missing))
 print("Structure check passed: 20 chapter workspaces and core control files are present.")

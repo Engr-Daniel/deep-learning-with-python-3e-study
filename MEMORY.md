@@ -18,6 +18,10 @@ Think alongside the learner and proactively suggest useful learning checks, expl
 
 Follow the official online chapter structure. Create only artifacts needed by the chapter. Chapter 1 uses NOTES.md as its main output, with section notes, external figure references, reflection, and recap. Code folders and RUN_LOG.md apply only when there is runnable work; they are not mandatory for conceptual chapters.
 
+## Notebook and runtime decision
+
+Use Google Colab for chapter code. Official third-edition notebooks come from fchollet/deep-learning-with-python-notebooks, pinned to fbf7f1bf2041093c4081e72544ec5905ace9dc8f. There are 16 study copies (Chapters 2-5 and 7-18); Chapters 1, 6, 19, and 20 have no published upstream notebooks. Preserve original code, document every environment change in NOTEBOOK_CHANGES.md, and record actual runs in RUN_LOG.md. Prepared copies are not evidence of execution. See study/NOTEBOOKS.md.
+
 ## Framework decision
 
 Do not prematurely standardize everything to one backend. The book explicitly covers TensorFlow, PyTorch, JAX, and Keras. Use the backend appropriate to the section and document it. For Keras sections, the backend may be selected explicitly when needed.

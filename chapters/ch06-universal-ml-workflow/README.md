@@ -22,3 +22,7 @@ Official online chapter: [Chapter 6 - The universal workflow of machine learning
 - [ ] End-of-chapter recap written.
 - [ ] `study/PROGRESS.md` updated.
 - [ ] `MEMORY.md` resume point updated.
+
+## Companion notebook
+
+[Official notebook repository](https://github.com/fchollet/deep-learning-with-python-notebooks). No third-edition notebook is published for Chapter 6 at the recorded revision. No placeholder notebook has been created. Follow the chapter text and use notes as appropriate.

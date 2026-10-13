@@ -42,6 +42,10 @@ This repository stores **original study notes, code written while following the 
 | 19 | [The future of AI](https://deeplearningwithpython.io/chapters/chapter19_future_of_ai/) | [Notes, code, and exercises](chapters/ch19-future-of-ai/README.md) |
 | 20 | [Conclusions](https://deeplearningwithpython.io/chapters/chapter20_conclusion/) | [Notes, code, and exercises](chapters/ch20-conclusions/README.md) |
 
+## Colab notebooks
+
+[Chapter notebook index](study/NOTEBOOKS.md) lists the 16 official third-edition study copies, their source links, and Colab links. Each runnable chapter has a NOTEBOOK_CHANGES.md preparation record. Code is unchanged from the pinned source; examples are not marked executed until actually run.
+
 ## Repository map
 
 - `AGENTS.md` — rules for AI/coding assistants working in this repo.
