@@ -16,7 +16,7 @@ Think alongside the learner and proactively suggest useful learning checks, expl
 
 ## Chapter workspace decision
 
-Follow the official online chapter structure. Create only artifacts needed by the chapter. Chapter 1 uses NOTES.md as its main output, with section notes, external figure references, reflection, and recap. Code folders and RUN_LOG.md apply only when there is runnable work; they are not mandatory for conceptual chapters.
+Follow the official online chapter structure. Create only artifacts needed by the chapter. Chapter 1 uses NOTES.md as its main output, with section notes, external figure references, reflection, and recap. Use notebooks for the Colab examples. Empty code/ placeholders have been removed from all chapters; create standalone script folders only for a specific task. RUN_LOG.md applies only when there is runnable work.
 
 ## Notebook and runtime decision
 

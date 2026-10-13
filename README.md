@@ -61,14 +61,14 @@ This repository stores **original study notes, code written while following the 
 - `scripts/` — small utilities for environment checks and progress validation.
 - `tests/` — tests for study utilities or adapted exercises when useful.
 
-Each chapter workspace follows its actual content and section order. Create code, notebook, experiment, output folders, and run logs only when applicable. Chapter 1 uses NOTES.md as its main artifact.
+Each chapter workspace follows its actual content and section order. Create notebook, experiment, output folders, and run logs only when applicable. Standalone script folders are created only for specific work. Chapter 1 uses NOTES.md as its main artifact.
 
 ## Daily workflow
 
 1. Record today's start page in `study/PROGRESS.md`.
 2. Read at least 5 pages, unless a code-heavy section reasonably takes the full session.
 3. Put concise original notes in the active chapter's `NOTES.md`.
-4. Put runnable code in that chapter's `notebooks/` or `code/` directory.
+4. Use the chapter's `notebooks/` directory for runnable examples in Colab. Create a standalone script folder only if a specific future task needs it.
 5. Run the code and record observed outputs/errors rather than assuming success.
 6. Put independent practice or modified examples in `EXERCISES.md` and/or `experiments/`.
 7. Add unresolved conceptual questions to `study/QUESTIONS.md`.
