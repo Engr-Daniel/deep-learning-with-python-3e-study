@@ -12,7 +12,7 @@ Open a notebook through its chapter overview. Start in a fresh session and run c
 
 The 16 official third-edition copies cover Chapters 2–5 and 7–18. They are pinned to the source revision in [the manifest](../study/manifest.json), with one [upstream license notice](../THIRD_PARTY_NOTICES.md).
 
-Study additions comprise a source header, environment recorder, and optional run-summary footer. Upstream outputs were cleared before study runs. Preparation did not change original code, backend settings, or seeds. Chapter 2’s later learner edits are declared in its overview and manifest; execution results remain in the notebooks. No placeholder notebooks are created for chapters without official code.
+Study additions comprise a source header, environment recorder, and optional run-summary footer. Upstream outputs were cleared before study runs. Preparation did not change original code, backend settings, or seeds. Chapter 2’s later learner edits are declared in its overview and manifest; execution results remain in the notebooks. No placeholder notebooks are created for chapters without official code. Notebook metadata uses format 4.5 or later with stable cell IDs; this corrects the initial import?s format/ID mismatch without altering code.
 
 [Official runtime guidance](https://github.com/fchollet/deep-learning-with-python-notebooks#running-the-code).
 

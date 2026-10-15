@@ -103,6 +103,10 @@ for chapter in chapters:
         ids = [c["id"] for c in notebook["cells"] if "id" in c]
         if len(ids) != len(set(ids)):
             errors.append(f"{path}: duplicate cell IDs")
+        if notebook.get("nbformat_minor", 0) < 5 or len(ids) != len(notebook["cells"]):
+            errors.append(f"{path}: use notebook 4.5+ metadata with an ID on every cell")
+        if any(not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", ident) for ident in ids):
+            errors.append(f"{path}: invalid cell ID")
         for cell in notebook["cells"]:
             inspect_text(source(cell), path.relative_to(ROOT))
             if cell["cell_type"] == "markdown":

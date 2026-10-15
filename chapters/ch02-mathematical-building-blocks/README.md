@@ -21,7 +21,7 @@ Start at the notebook introduction and run in order. A CPU runtime is sufficient
 
 | Evidence | Environment | Observed result |
 |---|---|---|
-| Learner’s book notebook | Saved environment: Python 3.13.15, TensorFlow 2.21.0, Keras 3.15.1, NumPy 2.1.3; TensorFlow backend, Tesla T4 | Learner reports completion; 73 of 75 code cells have saved execution counts; no saved error outputs. Two diagnostic cells are unverified from the file alone. |
+| Learner’s book notebook | Saved environment: Python 3.13.15, TensorFlow 2.21.0, Keras 3.15.1, NumPy 2.1.3; TensorFlow backend, Tesla T4 | Learner reports completion; 73 of 75 code cells have saved execution counts; no saved error outputs. Two TensorFlow-specific cells have no saved execution count, so their execution is unverified from the file alone. |
 | Revised teaching lab, development run | Windows CPU; Python 3.10.0, TensorFlow/Keras 2.11.0, NumPy 1.24.1, Matplotlib 3.7.0, ipywidgets 8.1.5 | All 20 code cells executed without saved errors. Training loss 2.309777 → 0.538247; held-out loss 0.634320; accuracy 82.1%. |
 
 The learner also reported completing the experiment in Colab. Their earlier saved training cell had been rerun after evaluation, so its old summary is not evidence for that final model state. The current notebook retains the verified revision’s complete outputs and environment record. Its browser interactions have not been independently tested in Colab after the revision.

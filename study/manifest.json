@@ -266,5 +266,5 @@
   "notebook_repository": "https://github.com/fchollet/deep-learning-with-python-notebooks",
   "notebook_revision": "fbf7f1bf2041093c4081e72544ec5905ace9dc8f",
   "notebook_license": "THIRD_PARTY_NOTICES.md",
-  "preparation": "Study header, environment recorder, optional run-summary footer; upstream outputs cleared before study runs. Backend settings and seeds preserved. Learner edits are declared per notebook."
+  "preparation": "Study header, environment recorder, optional run-summary footer; upstream outputs cleared before study runs. Backend settings and seeds preserved. Learner edits are declared per notebook. Notebook format metadata normalized to 4.5+ with stable cell IDs; no code changes."
 }
