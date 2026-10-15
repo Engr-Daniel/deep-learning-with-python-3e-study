@@ -32,3 +32,11 @@ Keep credentials out of this log. Explain API/backend differences before applyin
 - Local development used existing TensorFlow/Keras 2.11.0 rather than installing Colab's newer versions. The new experiment avoids Keras-3-specific APIs; no package upgrades, downgrades, or changes to the book-following notebook were made by the assistant.
 - Initial local Jupyter startup failed because sandbox permissions prevented secure connection-file ACLs; reran with execution approval. This required no mathematical or package compatibility change.
 - The new lab ran completely on local CPU, including alternate-control and widget callback checks. Colab browser interactions remain unverified. See `experiments/README.md`, RUN_LOG.md, and `outputs/ch02_lesson_execution.json`.
+
+## Visitor-focused lesson revision — 2026-10-15
+
+- The learner reported completing the experiment and requested stronger explanations for visitors. Preserved their executed experiment snapshot before revising the working lesson.
+- Expanded teaching text with explanations before code, worked calculations, controlled slider activities, output interpretation, misconception checks, hints, and transfer practice. Split the large MNIST code cell into six smaller cells without changing its mathematical operations.
+- Behavioral fix: after a retraining cell runs, older evaluation can become stale. Added training/evaluation records; training invalidates evaluation, and prediction browsing/run summaries reject old evaluation. Reason: visitors must connect the displayed predictions to the parameters actually evaluated.
+- No environment compatibility patches, backend substitutions, package installations, or official notebook edits were introduced. Colab widget setup is unchanged.
+- The revision ran fully on local CPU. Training/evaluation values match the earlier development defaults. See RUN_LOG.md and `outputs/ch02_lesson_revision_execution.json` for actual versions and verification limits.

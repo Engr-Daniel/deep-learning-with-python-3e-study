@@ -8,121 +8,263 @@
       "number": 1,
       "title": "What is deep learning?",
       "url": "https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/",
-      "directory": "chapters/ch01-what-is-deep-learning"
+      "directory": "chapters/ch01-what-is-deep-learning",
+      "notebook": null
     },
     {
       "number": 2,
       "title": "The mathematical building blocks of neural networks",
       "url": "https://deeplearningwithpython.io/chapters/chapter02_mathematical-building-blocks/",
-      "directory": "chapters/ch02-mathematical-building-blocks"
+      "directory": "chapters/ch02-mathematical-building-blocks",
+      "notebook": {
+        "path": "chapters/ch02-mathematical-building-blocks/notebooks/chapter02_mathematical_building_blocks.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter02_mathematical-building-blocks.ipynb",
+        "upstream_sha256": "87927adbfa5dd031d237f54edbc3703e8fbc909ec60ea3dc7e1c0c6e2ce5a16e",
+        "execution_status": "learner-reported completed 2026-10-15; saved executed cells inspected",
+        "upstream_code_unchanged": false,
+        "learner_edits": "Renamed notebook; added rank/shape inspection of a rank-3 array and shape displays for slices. These are learner practice edits, not environment patches.",
+        "study_code_sha256": "031a87d73808b0a6ae72bdaac277fce703e1c1caea775561670b01a8e8cd540e"
+      },
+      "experiment": {
+        "path": "chapters/ch02-mathematical-building-blocks/experiments/chapter02_interactive_foundations_lab.ipynb",
+        "study_code_sha256": "8111ce3ffc5e06a8cc4a00578ceb1ba3a062480ec5c5a80d12c650da6e9524e8",
+        "execution_status": "learner completion reported; revised lesson verified on local CPU 2026-10-15"
+      }
     },
     {
       "number": 3,
       "title": "Introduction to TensorFlow, PyTorch, JAX, and Keras",
       "url": "https://deeplearningwithpython.io/chapters/chapter03_introduction-to-ml-frameworks/",
-      "directory": "chapters/ch03-ml-frameworks"
+      "directory": "chapters/ch03-ml-frameworks",
+      "notebook": {
+        "path": "chapters/ch03-ml-frameworks/notebooks/chapter03_introduction-to-ml-frameworks.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter03_introduction-to-ml-frameworks.ipynb",
+        "upstream_sha256": "d004e33dd72b6b64b46d2e63855f69f4c9529e67572e06c84bb8da7fee88cfd0",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "d9515a93832bb0cb58f1570e02788b111047a4f6651323378f3ce585028e7f66"
+      }
     },
     {
       "number": 4,
       "title": "Classification and regression",
       "url": "https://deeplearningwithpython.io/chapters/chapter04_classification-and-regression/",
-      "directory": "chapters/ch04-classification-and-regression"
+      "directory": "chapters/ch04-classification-and-regression",
+      "notebook": {
+        "path": "chapters/ch04-classification-and-regression/notebooks/chapter04_classification-and-regression.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter04_classification-and-regression.ipynb",
+        "upstream_sha256": "08bd238cc4fe08dd85f24f81bb49be442bc5608f7e40638bd2bac1f496b172cb",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "a738404d35abeb2cec33f73685d243462c1a0caa2af199085d0c8d9c8771b353"
+      }
     },
     {
       "number": 5,
       "title": "Fundamentals of machine learning",
       "url": "https://deeplearningwithpython.io/chapters/chapter05_fundamentals-of-ml/",
-      "directory": "chapters/ch05-fundamentals-of-ml"
+      "directory": "chapters/ch05-fundamentals-of-ml",
+      "notebook": {
+        "path": "chapters/ch05-fundamentals-of-ml/notebooks/chapter05_fundamentals-of-ml.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter05_fundamentals-of-ml.ipynb",
+        "upstream_sha256": "ae7da8ce2d34fc9884ef19c3e51faa753b3c969dc15ed87d982834af00e306ab",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "322c99109a278107d8715c5f72b7e4ee0e748550a01e580e217843f09df7d9c1"
+      }
     },
     {
       "number": 6,
       "title": "The universal workflow of machine learning",
       "url": "https://deeplearningwithpython.io/chapters/chapter06_universal-workflow-of-ml/",
-      "directory": "chapters/ch06-universal-ml-workflow"
+      "directory": "chapters/ch06-universal-ml-workflow",
+      "notebook": null
     },
     {
       "number": 7,
       "title": "A deep dive on Keras",
       "url": "https://deeplearningwithpython.io/chapters/chapter07_deep-dive-keras/",
-      "directory": "chapters/ch07-deep-dive-keras"
+      "directory": "chapters/ch07-deep-dive-keras",
+      "notebook": {
+        "path": "chapters/ch07-deep-dive-keras/notebooks/chapter07_deep-dive-keras.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter07_deep-dive-keras.ipynb",
+        "upstream_sha256": "9ef3bc97e0bf6fe2afd14b52bc1c5d5a7d8ed134655ec385cbe8916c57bedece",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "1b0f6ece79b532eb8085f3acce7c7ce7b3d3853957046d9ede16e34d4ad67f93"
+      }
     },
     {
       "number": 8,
       "title": "Image classification",
       "url": "https://deeplearningwithpython.io/chapters/chapter08_image-classification/",
-      "directory": "chapters/ch08-image-classification"
+      "directory": "chapters/ch08-image-classification",
+      "notebook": {
+        "path": "chapters/ch08-image-classification/notebooks/chapter08_image-classification.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter08_image-classification.ipynb",
+        "upstream_sha256": "10e4fcf28f30bf62fca3c3d241f8e6f40f00e0b82b65f032493bb3e70ae8decb",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "a3681d3a87b08492decfbb7bebd67396b0df77e7a023139d012372cb451403b0"
+      }
     },
     {
       "number": 9,
       "title": "ConvNet architecture patterns",
       "url": "https://deeplearningwithpython.io/chapters/chapter09_convnet-architecture-patterns/",
-      "directory": "chapters/ch09-convnet-architecture-patterns"
+      "directory": "chapters/ch09-convnet-architecture-patterns",
+      "notebook": {
+        "path": "chapters/ch09-convnet-architecture-patterns/notebooks/chapter09_convnet-architecture-patterns.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter09_convnet-architecture-patterns.ipynb",
+        "upstream_sha256": "da7d4083a5a70f3aea03d8c3c7c8cd444d818d8cd2c3abef09cfe1189bebcd24",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "66d52aef4293d9186bc1e64310717ac41e069d347039e4229f60690d8abd4e15"
+      }
     },
     {
       "number": 10,
       "title": "Interpreting what ConvNets learn",
       "url": "https://deeplearningwithpython.io/chapters/chapter10_interpreting-what-convnets-learn/",
-      "directory": "chapters/ch10-interpreting-convnets"
+      "directory": "chapters/ch10-interpreting-convnets",
+      "notebook": {
+        "path": "chapters/ch10-interpreting-convnets/notebooks/chapter10_interpreting-what-convnets-learn.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter10_interpreting-what-convnets-learn.ipynb",
+        "upstream_sha256": "7cc2c2a1f1a2c7b0de850e601820b942a5acdd72328ce16c777c1ec0829ecd92",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "3aad2931a4df6ed9043c455518788e4b20834b8290082c5bee4804875efad156"
+      }
     },
     {
       "number": 11,
       "title": "Image segmentation",
       "url": "https://deeplearningwithpython.io/chapters/chapter11_image-segmentation/",
-      "directory": "chapters/ch11-image-segmentation"
+      "directory": "chapters/ch11-image-segmentation",
+      "notebook": {
+        "path": "chapters/ch11-image-segmentation/notebooks/chapter11_image-segmentation.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter11_image-segmentation.ipynb",
+        "upstream_sha256": "aec99acc63359431116671302ae21915040795e7a1fbf1739202468532146970",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "f07de3c2509d226ef9ff80eb431025bca75b122eb7f4b5c7e287e08576ee721a"
+      }
     },
     {
       "number": 12,
       "title": "Object detection",
       "url": "https://deeplearningwithpython.io/chapters/chapter12_object-detection/",
-      "directory": "chapters/ch12-object-detection"
+      "directory": "chapters/ch12-object-detection",
+      "notebook": {
+        "path": "chapters/ch12-object-detection/notebooks/chapter12_object-detection.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter12_object-detection.ipynb",
+        "upstream_sha256": "8aca1a30d67509e75b27d4e3bd58d73d132e9c4e4fc4674cf2d68a120bcfae91",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "b43f34ddd75f7c8bbc442b94e35cca6bed0966318b1076e8b685ac658391d8b8"
+      }
     },
     {
       "number": 13,
       "title": "Timeseries forecasting",
       "url": "https://deeplearningwithpython.io/chapters/chapter13_timeseries-forecasting/",
-      "directory": "chapters/ch13-timeseries-forecasting"
+      "directory": "chapters/ch13-timeseries-forecasting",
+      "notebook": {
+        "path": "chapters/ch13-timeseries-forecasting/notebooks/chapter13_timeseries-forecasting.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter13_timeseries-forecasting.ipynb",
+        "upstream_sha256": "6b5b1f3976f6a3da3a958f985f8c4e7e5d5ec8773e20d4906f11d88752b9e2e9",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "4baf66e316148a7a9595a8309a9d71c41990eaac1e0409dcac9c110fd707779d"
+      }
     },
     {
       "number": 14,
       "title": "Text classification",
       "url": "https://deeplearningwithpython.io/chapters/chapter14_text-classification/",
-      "directory": "chapters/ch14-text-classification"
+      "directory": "chapters/ch14-text-classification",
+      "notebook": {
+        "path": "chapters/ch14-text-classification/notebooks/chapter14_text-classification.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter14_text-classification.ipynb",
+        "upstream_sha256": "9ae4cb854ae77703f432b3bfbfa7a92b8588d2ea09ba04481d61565d6a7c52f1",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "b1409a7ed2c7d7cde7e1e72db9cb73a84a18cda8b080713cd1fda22d620f54c8"
+      }
     },
     {
       "number": 15,
       "title": "Language models and the Transformer",
       "url": "https://deeplearningwithpython.io/chapters/chapter15_language-models-and-the-transformer/",
-      "directory": "chapters/ch15-language-models-transformer"
+      "directory": "chapters/ch15-language-models-transformer",
+      "notebook": {
+        "path": "chapters/ch15-language-models-transformer/notebooks/chapter15_language-models-and-the-transformer.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter15_language-models-and-the-transformer.ipynb",
+        "upstream_sha256": "30fe8fc91d85bbe1bc71542727b185d0e5acc24f4ee8f4da349592d2defe0feb",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "c79b5be34067dc332f60029c65db67edba901bec5447c2c5112b3e3f27dcd803"
+      }
     },
     {
       "number": 16,
       "title": "Text generation",
       "url": "https://deeplearningwithpython.io/chapters/chapter16_text-generation/",
-      "directory": "chapters/ch16-text-generation"
+      "directory": "chapters/ch16-text-generation",
+      "notebook": {
+        "path": "chapters/ch16-text-generation/notebooks/chapter16_text-generation.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter16_text-generation.ipynb",
+        "upstream_sha256": "e0bee1627feab49eb64e75b7d56111b17a8d39d5630e362e2fc80eee4411525a",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "1826170b70c39f48002dd028682311e645a2c252f62a3e983495770d3b776c63"
+      }
     },
     {
       "number": 17,
       "title": "Image generation",
       "url": "https://deeplearningwithpython.io/chapters/chapter17_image-generation/",
-      "directory": "chapters/ch17-image-generation"
+      "directory": "chapters/ch17-image-generation",
+      "notebook": {
+        "path": "chapters/ch17-image-generation/notebooks/chapter17_image-generation.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter17_image-generation.ipynb",
+        "upstream_sha256": "bcb2183ac4336898fe228a0426588b501158c60aa97c46e7fdbdcde10677e83e",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "8a68a8f8e8151dcc522dbbb0e5f19500d4fe6e7d9d427c87b12008c0fd0f677a"
+      }
     },
     {
       "number": 18,
       "title": "Best practices for the real world",
       "url": "https://deeplearningwithpython.io/chapters/chapter18_best-practices-for-the-real-world/",
-      "directory": "chapters/ch18-real-world-best-practices"
+      "directory": "chapters/ch18-real-world-best-practices",
+      "notebook": {
+        "path": "chapters/ch18-real-world-best-practices/notebooks/chapter18_best-practices-for-the-real-world.ipynb",
+        "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter18_best-practices-for-the-real-world.ipynb",
+        "upstream_sha256": "ebd9791ce8898b6306eb0e970bfd9f192bf206a6c01cca8aefc41428ea50455e",
+        "execution_status": "not run",
+        "upstream_code_unchanged": true,
+        "study_code_sha256": "dcf0eae22d78c2748f844e6b314f90abe44a7da3196056d7c38ce0778b23a03f"
+      }
     },
     {
       "number": 19,
       "title": "The future of AI",
       "url": "https://deeplearningwithpython.io/chapters/chapter19_future_of_ai/",
-      "directory": "chapters/ch19-future-of-ai"
+      "directory": "chapters/ch19-future-of-ai",
+      "notebook": null
     },
     {
       "number": 20,
       "title": "Conclusions",
       "url": "https://deeplearningwithpython.io/chapters/chapter20_conclusion/",
-      "directory": "chapters/ch20-conclusions"
+      "directory": "chapters/ch20-conclusions",
+      "notebook": null
     }
-  ]
+  ],
+  "notebook_repository": "https://github.com/fchollet/deep-learning-with-python-notebooks",
+  "notebook_revision": "fbf7f1bf2041093c4081e72544ec5905ace9dc8f",
+  "notebook_license": "THIRD_PARTY_NOTICES.md",
+  "preparation": "Study header, environment recorder, optional run-summary footer; upstream outputs cleared before study runs. Backend settings and seeds preserved. Learner edits are declared per notebook."
 }

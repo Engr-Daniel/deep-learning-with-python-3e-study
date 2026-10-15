@@ -1,25 +1,21 @@
-# Environment and Colab workflow
+# Running notebooks in Colab
 
-## Primary runtime: Google Colab
+Open a notebook through its chapter overview. Start in a fresh session and run cells in order. CPU is sufficient for the small Chapter 2 experiment; choose an accelerator when the chapter requires or benefits from it.
 
-The learner will run all chapter notebooks in Colab. Open the relevant study copy through [the notebook index](../study/NOTEBOOKS.md). If a study copy has not been pushed yet, upload the local .ipynb to Colab or use the indexed official copy.
+- Use the notebook’s setup cells. Preserve TensorFlow, PyTorch, JAX, and Keras distinctions. Set `KERAS_BACKEND` before importing Keras; restart before switching backends.
+- Keep the environment-cell output with the notebook. Record a concise result and any environment-driven edit once under **Execution and changes** in the chapter README: original behavior, reason for the fix, change, and observed result.
+- Preserve seeds where present; record versions and devices because exact metrics can vary. Do not guess new package pins before seeing an actual problem.
+- Use interactive authentication or Colab secrets when required. Do not commit credentials or private outputs. Runtime storage is temporary; save the executed notebook to your repository if you want to keep it.
+- Live sliders require notebook execution. Chapter 2 enables Colab’s widget manager; its static figures also remain readable without live controls.
 
-1. Read alongside the chapter and execute sections in chapter order.
-2. Select the runtime/accelerator appropriate to the section. The authors recommend Colab GPU runtimes; confirm what is available in your session before long training runs.
-3. Run the original installation and backend-selection cells. The upstream notebooks use Keras 3 and preserve TensorFlow, JAX, and PyTorch distinctions. Backend requirements can differ by section.
-4. Run the added environment-evidence cell after backend selection. It records Python/package versions, requested backend, and available NVIDIA GPU information without importing the frameworks. After framework imports, also record the actual backend and devices.
-5. Inspect inputs, tensor shapes, predictions, and metrics. Save meaningful evidence in the chapter RUN_LOG.md; notebook preparation alone does not count as execution.
-6. When an error occurs, record the exact cell, traceback, versions, proposed change, reason, and observed result. Explain the API/backend difference before changing it. Put every compatibility edit in NOTEBOOK_CHANGES.md.
-7. Use the notebook run-evidence footer to capture the exact resume cell/section, seed behavior, and lesson learned. Save the notebook back to this repository after the session if you want its executed state preserved here; running in Colab does not automatically update this checkout.
+## Notebook provenance
 
-Set KERAS_BACKEND before importing Keras. Restart the Colab session before switching backends; changing the environment variable after imports is insufficient.
+The 16 official third-edition copies cover Chapters 2–5 and 7–18. They are pinned to the source revision in [the manifest](../study/manifest.json), with one [upstream license notice](../THIRD_PARTY_NOTICES.md).
 
-Preserve the authors' package installation commands for the first run rather than guessing new pins. They may upgrade packages, so record the versions actually installed. No Colab compatibility fixes or extra version pins have been introduced during preparation.
+Study additions comprise a source header, environment recorder, and optional run-summary footer. Upstream outputs were cleared before study runs. Preparation did not change original code, backend settings, or seeds. Chapter 2’s later learner edits are declared in its overview and manifest; execution results remain in the notebooks. No placeholder notebooks are created for chapters without official code.
 
-For authenticated datasets/models, follow the original login cells and use interactive authentication or Colab secrets. Do not put credentials in cells, saved output, or Git. Colab sessions and locally downloaded files are temporary; rerun setup after a reset.
+[Official runtime guidance](https://github.com/fchollet/deep-learning-with-python-notebooks#running-the-code).
 
-Official guidance: [companion repository README](https://github.com/fchollet/deep-learning-with-python-notebooks#running-the-code).
+## Optional local execution
 
-## Optional local environment
-
-Local framework installation is optional. The existing requirements files remain available for local practice: install requirements-core.txt and the appropriate backend requirements in a virtual environment, then run python scripts/check_environment.py. Record actual environment details for any meaningful local run as well.
+Use a virtual environment with `requirements-core.txt` and the appropriate backend requirement file from this folder. `python scripts/check_environment.py` reports the local packages. Colab users do not need to install these files locally. Keep large datasets and model files outside version control.

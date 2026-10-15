@@ -1,28 +1,8 @@
 # Chapter 20: Conclusions
 
-Official online chapter: [Chapter 20 - Conclusions](https://deeplearningwithpython.io/chapters/chapter20_conclusion/)
+**Not started.** Follow the book in order. [All chapters](../../README.md#chapters) · [Progress](../../study/PROGRESS.md)
 
-[All textbook chapters](https://deeplearningwithpython.io/chapters/) | [Study repository](../../README.md)
+[Read Chapter 20](https://deeplearningwithpython.io/chapters/chapter20_conclusion/). The official third-edition repository publishes no notebook for this chapter. Notes or a practical artifact will be added when the material calls for them.
 
-## Study focus
 
-- Key concepts in review
-- Limitations and future directions
-- Staying current after the book
-
-## Completion checklist
-
-- [ ] Reading complete.
-- [ ] Notes written in original words.
-- [ ] All meaningful code examples attempted.
-- [ ] Important outputs inspected and understood.
-- [ ] Errors/version differences documented.
-- [ ] Exercises or independent practice completed where applicable.
-- [ ] Questions resolved or carried forward.
-- [ ] End-of-chapter recap written.
-- [ ] `study/PROGRESS.md` updated.
-- [ ] `MEMORY.md` resume point updated.
-
-## Companion notebook
-
-[Official notebook repository](https://github.com/fchollet/deep-learning-with-python-notebooks). No third-edition notebook is published for Chapter 20 at the recorded revision. No placeholder notebook has been created. Follow the chapter text and use notes as appropriate.
+Use this chapter’s overview for navigation and run details, `NOTES.md` for original summaries once studied, and `experiments/` for an applicable project. Empty artifacts are not pre-created.

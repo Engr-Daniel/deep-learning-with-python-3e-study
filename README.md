@@ -1,80 +1,56 @@
-# Deep Learning with Python, Third Edition — Complete Study Repository
+# Deep Learning with Python, Third Edition — Study and Experiments
 
-A chapter-by-chapter learning and code-execution repository for working through **Deep Learning with Python, Third Edition** in full.
+Read the textbook, run its chapter notebook, and apply the concepts in a small experiment. This repository collects original notes, attributed companion code, and practical lessons for learners following the third edition in order.
 
-## Study commitment
+**Start here:** [Chapter 1 notes](chapters/ch01-what-is-deep-learning/NOTES.md) or the [Chapter 2 interactive MNIST lab](chapters/ch02-mathematical-building-blocks/README.md). See [progress](study/PROGRESS.md) for completed work and the current resume point.
 
-- Minimum pace: **5 pages per day**.
-- Read the book in order, Chapter 1 through Chapter 20.
-- Execute every meaningful code example rather than only reading it.
-- Record outputs, failures, fixes, questions, and reflections.
-- Complete reading, notes, recap, and all applicable practical work before marking a chapter complete. Conceptual chapters can mark code work not applicable.
+## How to use this repository
 
-## What belongs here
+1. Read the official chapter. The study target is at least five pages on study days.
+2. Open its book notebook in Colab using the chapter overview. Run sections alongside the text and inspect their outputs.
+3. Use the original experiment to apply that chapter’s ideas. Experiments stay within the chapter’s scope and explain the steps for visitors.
 
-This repository stores **original study notes, code written while following the book, exercises, experiment outputs, progress records, and reflections**. It should not be used to reproduce or redistribute the book text.
+Each chapter overview links its material and records actual execution results or environment changes. Notes contain the original concept summary and recap. Chapters without runnable code do not need notebook or experiment placeholders. Additional written exercises are optional; questions and personal reflections are recorded when the learner raises them.
 
-## Textbook and chapter links
+**Using a fork:** In Colab, open the notebook from your fork through **File → Open notebook → GitHub**, then save your executed copy back to your fork. Links in this repository open this repository’s notebooks. Running in Colab does not automatically update files on GitHub. See [environment guidance](environment/README.md).
 
-- [Official online textbook - all chapters](https://deeplearningwithpython.io/chapters/)
-- [GitHub study repository](https://github.com/Engr-Daniel/deep-learning-with-python-3e-study)
+## Chapters
 
-| Chapter | Online textbook | Study workspace |
+| Chapter | Study workspace | Textbook |
 |---:|---|---|
-| 01 | [What is deep learning?](https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/) | [Notes and figures](chapters/ch01-what-is-deep-learning/NOTES.md) |
-| 02 | [The mathematical building blocks of neural networks](https://deeplearningwithpython.io/chapters/chapter02_mathematical-building-blocks/) | [Notes, code, and exercises](chapters/ch02-mathematical-building-blocks/README.md) |
-| 03 | [Introduction to TensorFlow, PyTorch, JAX, and Keras](https://deeplearningwithpython.io/chapters/chapter03_introduction-to-ml-frameworks/) | [Notes, code, and exercises](chapters/ch03-ml-frameworks/README.md) |
-| 04 | [Classification and regression](https://deeplearningwithpython.io/chapters/chapter04_classification-and-regression/) | [Notes, code, and exercises](chapters/ch04-classification-and-regression/README.md) |
-| 05 | [Fundamentals of machine learning](https://deeplearningwithpython.io/chapters/chapter05_fundamentals-of-ml/) | [Notes, code, and exercises](chapters/ch05-fundamentals-of-ml/README.md) |
-| 06 | [The universal workflow of machine learning](https://deeplearningwithpython.io/chapters/chapter06_universal-workflow-of-ml/) | [Notes, code, and exercises](chapters/ch06-universal-ml-workflow/README.md) |
-| 07 | [A deep dive on Keras](https://deeplearningwithpython.io/chapters/chapter07_deep-dive-keras/) | [Notes, code, and exercises](chapters/ch07-deep-dive-keras/README.md) |
-| 08 | [Image classification](https://deeplearningwithpython.io/chapters/chapter08_image-classification/) | [Notes, code, and exercises](chapters/ch08-image-classification/README.md) |
-| 09 | [ConvNet architecture patterns](https://deeplearningwithpython.io/chapters/chapter09_convnet-architecture-patterns/) | [Notes, code, and exercises](chapters/ch09-convnet-architecture-patterns/README.md) |
-| 10 | [Interpreting what ConvNets learn](https://deeplearningwithpython.io/chapters/chapter10_interpreting-what-convnets-learn/) | [Notes, code, and exercises](chapters/ch10-interpreting-convnets/README.md) |
-| 11 | [Image segmentation](https://deeplearningwithpython.io/chapters/chapter11_image-segmentation/) | [Notes, code, and exercises](chapters/ch11-image-segmentation/README.md) |
-| 12 | [Object detection](https://deeplearningwithpython.io/chapters/chapter12_object-detection/) | [Notes, code, and exercises](chapters/ch12-object-detection/README.md) |
-| 13 | [Timeseries forecasting](https://deeplearningwithpython.io/chapters/chapter13_timeseries-forecasting/) | [Notes, code, and exercises](chapters/ch13-timeseries-forecasting/README.md) |
-| 14 | [Text classification](https://deeplearningwithpython.io/chapters/chapter14_text-classification/) | [Notes, code, and exercises](chapters/ch14-text-classification/README.md) |
-| 15 | [Language models and the Transformer](https://deeplearningwithpython.io/chapters/chapter15_language-models-and-the-transformer/) | [Notes, code, and exercises](chapters/ch15-language-models-transformer/README.md) |
-| 16 | [Text generation](https://deeplearningwithpython.io/chapters/chapter16_text-generation/) | [Notes, code, and exercises](chapters/ch16-text-generation/README.md) |
-| 17 | [Image generation](https://deeplearningwithpython.io/chapters/chapter17_image-generation/) | [Notes, code, and exercises](chapters/ch17-image-generation/README.md) |
-| 18 | [Best practices for the real world](https://deeplearningwithpython.io/chapters/chapter18_best-practices-for-the-real-world/) | [Notes, code, and exercises](chapters/ch18-real-world-best-practices/README.md) |
-| 19 | [The future of AI](https://deeplearningwithpython.io/chapters/chapter19_future_of_ai/) | [Notes, code, and exercises](chapters/ch19-future-of-ai/README.md) |
-| 20 | [Conclusions](https://deeplearningwithpython.io/chapters/chapter20_conclusion/) | [Notes, code, and exercises](chapters/ch20-conclusions/README.md) |
+| 01 | [What is deep learning?](chapters/ch01-what-is-deep-learning/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter01_what-is-deep-learning/) |
+| 02 | [The mathematical building blocks of neural networks](chapters/ch02-mathematical-building-blocks/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter02_mathematical-building-blocks/) |
+| 03 | [Introduction to TensorFlow, PyTorch, JAX, and Keras](chapters/ch03-ml-frameworks/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter03_introduction-to-ml-frameworks/) |
+| 04 | [Classification and regression](chapters/ch04-classification-and-regression/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter04_classification-and-regression/) |
+| 05 | [Fundamentals of machine learning](chapters/ch05-fundamentals-of-ml/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter05_fundamentals-of-ml/) |
+| 06 | [The universal workflow of machine learning](chapters/ch06-universal-ml-workflow/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter06_universal-workflow-of-ml/) |
+| 07 | [A deep dive on Keras](chapters/ch07-deep-dive-keras/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter07_deep-dive-keras/) |
+| 08 | [Image classification](chapters/ch08-image-classification/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter08_image-classification/) |
+| 09 | [ConvNet architecture patterns](chapters/ch09-convnet-architecture-patterns/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter09_convnet-architecture-patterns/) |
+| 10 | [Interpreting what ConvNets learn](chapters/ch10-interpreting-convnets/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter10_interpreting-what-convnets-learn/) |
+| 11 | [Image segmentation](chapters/ch11-image-segmentation/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter11_image-segmentation/) |
+| 12 | [Object detection](chapters/ch12-object-detection/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter12_object-detection/) |
+| 13 | [Timeseries forecasting](chapters/ch13-timeseries-forecasting/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter13_timeseries-forecasting/) |
+| 14 | [Text classification](chapters/ch14-text-classification/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter14_text-classification/) |
+| 15 | [Language models and the Transformer](chapters/ch15-language-models-transformer/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter15_language-models-and-the-transformer/) |
+| 16 | [Text generation](chapters/ch16-text-generation/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter16_text-generation/) |
+| 17 | [Image generation](chapters/ch17-image-generation/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter17_image-generation/) |
+| 18 | [Best practices for the real world](chapters/ch18-real-world-best-practices/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter18_best-practices-for-the-real-world/) |
+| 19 | [The future of AI](chapters/ch19-future-of-ai/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter19_future_of_ai/) |
+| 20 | [Conclusions](chapters/ch20-conclusions/README.md) | [Read](https://deeplearningwithpython.io/chapters/chapter20_conclusion/) |
 
-## Colab notebooks
+## Repository guide
 
-[Chapter notebook index](study/NOTEBOOKS.md) lists the 16 official third-edition study copies, their source links, and Colab links. Each runnable chapter has a NOTEBOOK_CHANGES.md preparation record. Code is unchanged from the pinned source; examples are not marked executed until actually run.
+- `chapters/`: one overview per chapter, studied notes, book notebooks, and applicable experiments.
+- [Progress](study/PROGRESS.md): the single chapter-status table and next reading point.
+- [Source manifest](study/manifest.json): chapter locations, notebook provenance, and integrity hashes.
+- `study/logs/`: short session records linking to the actual artifacts.
+- [Environment](environment/README.md): Colab workflow and optional local requirements.
+- [Contributing](CONTRIBUTING.md): standards for corrections and forks.
+- `AGENTS.md`, `MEMORY.md`, `TASK.md`: assistant rules, durable preferences, and the current task.
 
-## Repository map
+Run `python scripts/validate_repository.py` to check structure, local links, notebook integrity, and common text corruption. The check does not execute machine-learning code.
 
-- `AGENTS.md` — rules for AI/coding assistants working in this repo.
-- `TASK.md` — master objective, completion criteria, and current task protocol.
-- `MEMORY.md` — durable project decisions and current study state.
-- `study/BOOK_MAP.md` — all 20 chapters and progress states.
-- `study/PROGRESS.md` — daily and chapter-level progress ledger.
-- `study/DAILY_LOG_TEMPLATE.md` — template for each study session.
-- `study/QUESTIONS.md` — unresolved questions to revisit.
-- `study/GLOSSARY.md` — concepts learned in your own words.
-- `chapters/` — one workspace per book chapter.
-- `environment/` — reproducible environment guidance and optional backend requirements.
-- `scripts/` — small utilities for environment checks and progress validation.
-- `tests/` — tests for study utilities or adapted exercises when useful.
+## Attribution
 
-Each chapter workspace follows its actual content and section order. Create notebook, experiment, output folders, and run logs only when applicable. Standalone script folders are created only for specific work. Chapter 1 uses NOTES.md as its main artifact.
-
-## Daily workflow
-
-1. Record today's start page in `study/PROGRESS.md`.
-2. Read at least 5 pages, unless a code-heavy section reasonably takes the full session.
-3. Put concise original notes in the active chapter's `NOTES.md`.
-4. Use the chapter's `notebooks/` directory for runnable examples in Colab. Create a standalone script folder only if a specific future task needs it.
-5. Run the code and record observed outputs/errors rather than assuming success.
-6. Put independent practice or modified examples in `EXERCISES.md` and/or `experiments/`.
-7. Add unresolved conceptual questions to `study/QUESTIONS.md`.
-8. Update `MEMORY.md` only for durable decisions or the exact resume point.
-9. Update the progress table before ending the session.
-
-## Practical philosophy
-
-The purpose is not to race through pages. The purpose is to finish the book with working intuition, reproducible code, and a traceable learning record.
+Read the book through its [official website](https://deeplearningwithpython.io/chapters/). Book prose is not redistributed here. Companion notebooks retain their [upstream MIT notice](THIRD_PARTY_NOTICES.md); original study work uses this repository’s [license](LICENSE).

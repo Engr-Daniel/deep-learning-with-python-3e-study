@@ -1,42 +1,30 @@
-# Progress Ledger
+# Study progress
 
-## Overall
+**Completed: 2 / 20. Next reading: beginning of Chapter 3 — Introduction to TensorFlow, PyTorch, JAX, and Keras.**
 
-- Chapters completed: **1 / 20**
-- Current chapter: **Chapter 2**
-- Current resume point: **Chapter 2 interactive experiment, Lesson 0; learner recap pending**
-- Daily minimum: **5 pages**
+Reading, chapter notebook execution, and the applied experiment are the learning workflow. Completion uses the learner’s reports plus saved evidence; preparation alone does not count as execution. Conceptual chapters can mark code/project work not applicable.
 
-## Daily log
+| Chapter | Status | Evidence |
+|---:|---|---|
+| [01](../chapters/ch01-what-is-deep-learning/README.md) | Complete | Reading, original notes, and learner recap; runnable code N/A |
+| [02](../chapters/ch02-mathematical-building-blocks/README.md) | Complete | Reading/book notebook/experiment reported complete; original notes, recap, and executed lab recorded |
+| [03](../chapters/ch03-ml-frameworks/README.md) | Not started | — |
+| [04](../chapters/ch04-classification-and-regression/README.md) | Not started | — |
+| [05](../chapters/ch05-fundamentals-of-ml/README.md) | Not started | — |
+| [06](../chapters/ch06-universal-ml-workflow/README.md) | Not started | — |
+| [07](../chapters/ch07-deep-dive-keras/README.md) | Not started | — |
+| [08](../chapters/ch08-image-classification/README.md) | Not started | — |
+| [09](../chapters/ch09-convnet-architecture-patterns/README.md) | Not started | — |
+| [10](../chapters/ch10-interpreting-convnets/README.md) | Not started | — |
+| [11](../chapters/ch11-image-segmentation/README.md) | Not started | — |
+| [12](../chapters/ch12-object-detection/README.md) | Not started | — |
+| [13](../chapters/ch13-timeseries-forecasting/README.md) | Not started | — |
+| [14](../chapters/ch14-text-classification/README.md) | Not started | — |
+| [15](../chapters/ch15-language-models-transformer/README.md) | Not started | — |
+| [16](../chapters/ch16-text-generation/README.md) | Not started | — |
+| [17](../chapters/ch17-image-generation/README.md) | Not started | — |
+| [18](../chapters/ch18-real-world-best-practices/README.md) | Not started | — |
+| [19](../chapters/ch19-future-of-ai/README.md) | Not started | — |
+| [20](../chapters/ch20-conclusions/README.md) | Not started | — |
 
-| Date | Chapter | Start page | End page | Pages | Code run? | Main outcome | Next resume point |
-|---|---:|---:|---:|---:|---|---|---|
-| 2026-10-12 | 1 | — | — | 0 | N/A | Repository initialized | Beginning of Chapter 1 |
-| 2026-10-13 | 1 | Unknown | Chapter end | Unknown | N/A | Chapter complete; notes, figures, reflection, and recap recorded; reading dates/page count unspecified | Beginning of Chapter 2 |
-
-| 2026-10-15 | 2 | Unknown | Chapter end | Unknown | Learner book run reported; lab CPU run verified | Reading/book notebook complete; interactive experiment created and executed locally | Experiment Lesson 0, then recap |
-
-## Chapter completion
-
-| Chapter | Reading | Code | Exercises | Recap | Complete |
-|---:|---|---|---|---|---|
-| 01 | Complete | N/A (conceptual chapter) | Recall complete; code practice N/A | Complete | Complete |
-| 02 | Complete (learner reported) | Run reported; saved outputs inspected | Teaching lab ready; learner practice pending | Pending | Pending |
-| 03 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 04 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 05 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 06 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 07 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 08 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 09 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 10 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 11 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 12 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 13 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 14 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 15 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 16 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 17 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 18 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 19 | ☐ | ☐ | ☐ | ☐ | ☐ |
-| 20 | ☐ | ☐ | ☐ | ☐ | ☐ |
+Reading completion was reported on 2026-10-13 for Chapter 1 and 2026-10-15 for Chapter 2. Exact reading dates and page ranges were not supplied. [Session logs](logs/) record these reports; per-chapter overviews hold run details.

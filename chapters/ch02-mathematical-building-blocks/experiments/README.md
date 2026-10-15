@@ -4,6 +4,14 @@
 
 This is an original, student-facing lesson built within Chapter 2's scope. It uses MNIST where images and labels matter, and small invented arrays where the numbers need to be visible. It is separate from the book-following notebook; it does not replace the reading.
 
+## What makes this a lesson
+
+The revised notebook starts with a concrete digit-recognition problem and explains the vocabulary before using it. It assumes basic Python, but no calculus or prior neural-network training. Learners encounter a hand-worked example before a larger computation, a prediction prompt before a control, and an explanation of what the plot/output means afterward.
+
+The controls have specific experiments: change only weight, then only bias; compare predetermined learning rates; follow point colors during rotation; inspect a wrong prediction. Twelve short checks include optional hints and explanations; a final transfer task checks a fresh example. The large final implementation is split into six small code blocks, with parameter-count calculations, shape traces, and a line-by-line update explanation. A fresh transfer problem tests whether learners can use the ideas without copying the displayed example.
+
+These changes address the gap between running code and understanding it. They do not prove that every visitor will understand: ask a new learner to predict a shape, calculate an update, and explain a prediction. Where they get stuck is evidence for the next teaching revision.
+
 ## Teaching sequence
 
 1. Inspect real MNIST images and distinguish samples from labels.
@@ -43,6 +51,15 @@ The entire notebook ran on local Windows CPU using Python 3.10.0, TensorFlow/Ker
 - Alternate controls were exercised, including a batch of one, edge crop, negative weight, geometric transform plus ReLU, zero gradient, diverging toy updates, and a misclassified image. Actual widget trait changes triggered their kernel callbacks.
 - The local sandbox initially blocked Jupyter from securing its connection file. The run was retried with execution approval; notebook mathematics and package versions were unchanged. A Windows Jupyter event-loop warning required no lesson-code change.
 
-Saved evidence: the executed notebook and [machine-readable run summary](../outputs/ch02_lesson_execution.json). The development checks do not complete the learner's teach-back. The learner still needs to run this new experiment in Colab, manipulate controls, and explain the observations.
+Saved evidence: the executed notebook and [machine-readable run summary](../outputs/ch02_lesson_execution.json). The development checks do not complete the learner's teach-back. The learner subsequently reported completing the experiment and supplied its executed notebook. The written observations and recap remain to be recorded.
 
-**Resume:** Lesson 0, then run the notebook in order. Complete Lesson 8 before the Chapter 2 recap/completion review. Next reading afterward: beginning of Chapter 3.
+**Learner resume:** Record the Chapter 2 recap using Lesson 8. For a visitor’s first pass, start at the introduction and run lessons in order. To review the revised explanations, begin with Lesson 2’s worked shape example. Next reading after the Chapter 2 review: beginning of Chapter 3.
+
+## Teaching revision and learner evidence — 2026-10-15
+
+- Preserved the learner’s pre-revision executed notebook in `../outputs/ch02_learner_lab_before_teaching_revision.ipynb`, with its saved summary separately recorded. The saved training cell ran after its evaluation/summary cells, so those old metrics are not attributed to the final saved training state.
+- Revised the main notebook to 67 cells: 47 explanation/activity cells and 20 code cells. Added worked arithmetic, guided slider settings, plot interpretation, twelve knowledge checks plus a transfer task, a worked teach-back, and an unseen transfer problem.
+- Added training/evaluation run records. Retraining invalidates evaluation; the browser and summary require evaluation from the current training run. Existing old plots on the page are still static images from their original runs; rerun evaluation to refresh them.
+- Re-executed all 20 code cells locally in sequence. Worked learning-rate tables, softmax values, transfer-task arithmetic, parameter count (25,450), batch count (47 per epoch), callback behavior, and stale-evaluation guards passed targeted checks.
+- Default metrics remained training loss 2.309777 → 0.538247 and held-out accuracy 0.821. Same local CPU environment and no package changes. Evidence: `../outputs/ch02_lesson_revision_execution.json`.
+- The learner’s previous Colab run is recorded separately from this development run. The revised explanations and browser interactions have not yet been independently evaluated with a new visitor or in Colab.
