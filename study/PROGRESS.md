@@ -21,7 +21,7 @@
 | Chapter | Reading | Code | Exercises | Recap | Complete |
 |---:|---|---|---|---|---|
 | 01 | Complete | N/A (conceptual chapter) | Recall complete; code practice N/A | Complete | Complete |
-| 02 | ☐ | ☐ | ☐ | ☐ | ☐ |
+| 02 | Complete (learner reported) | Run reported; saved outputs inspected | Teaching lab ready; learner practice pending | Pending | Pending |
 | 03 | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 04 | ☐ | ☐ | ☐ | ☐ | ☐ |
 | 05 | ☐ | ☐ | ☐ | ☐ | ☐ |

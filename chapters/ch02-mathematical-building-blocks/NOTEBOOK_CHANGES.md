@@ -22,7 +22,7 @@ Record each change before considering an example complete:
 
 Keep credentials out of this log. Explain API/backend differences before applying a fix.
 
-## Learner-saved notebook and original experiment ? 2026-10-15
+## Learner-saved notebook and original experiment - 2026-10-15
 
 - The learner supplied `notebooks/chapter02_mathematical_building_blocks.ipynb`, replacing the hyphenated local filename. Preserved the file and updated local links/manifest; official source URLs remain unchanged.
 - Inspected saved code relative to the prior study copy: a rank-3 array example now displays its rank/shape, and slice examples display their shapes. These are learner practice edits, not compatibility fixes introduced by the assistant.

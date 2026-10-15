@@ -1,4 +1,4 @@
-# Exercises ? Chapter 2: The mathematical building blocks of neural networks
+# Exercises - Chapter 2: The mathematical building blocks of neural networks
 
 ## Book-following practice
 

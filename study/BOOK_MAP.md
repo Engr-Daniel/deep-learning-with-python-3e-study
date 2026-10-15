@@ -5,7 +5,7 @@ Official contents: https://deeplearningwithpython.io/chapters/
 | Ch. | Chapter | Status | Reading | Code |
 |---:|---|---|---|---|
 | 01 | What is deep learning? | Complete | Complete | N/A |
-| 02 | The mathematical building blocks of neural networks | Not started | ☐ | ☐ |
+| 02 | The mathematical building blocks of neural networks | Experiment/recap pending | Complete (learner reported) | Learner run reported; outputs inspected |
 | 03 | Introduction to TensorFlow, PyTorch, JAX, and Keras | Not started | ☐ | ☐ |
 | 04 | Classification and regression | Not started | ☐ | ☐ |
 | 05 | Fundamentals of machine learning | Not started | ☐ | ☐ |
