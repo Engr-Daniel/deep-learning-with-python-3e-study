@@ -46,3 +46,6 @@ outputs/tmp/
 .upstream-notebooks/
 .upstream-commit.json
 .upstream-tree.json
+
+# Local notebook execution and preview scratch files
+.tmp/

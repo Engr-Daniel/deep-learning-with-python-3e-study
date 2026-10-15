@@ -17,10 +17,10 @@ Complete **Deep Learning with Python, Third Edition** in full, chapter by chapte
 
 ## Current task
 
-**Phase:** Chapter 2 reading and practice
+**Phase:** Chapter 2 teaching experiment and consolidation
 **Chapter:** Chapter 2 — The mathematical building blocks of neural networks
-**Status:** Chapter 1 complete; ready to begin Chapter 2
-**Next action:** Read from the beginning of Chapter 2, targeting at least 5 pages. Follow its actual section structure and execute runnable examples as encountered.
+**Status:** Chapter 2 reading and book notebook reported complete. New experiment built and locally executed; learner practice and recap pending.
+**Next action:** Run chapters/ch02-mathematical-building-blocks/experiments/chapter02_interactive_foundations_lab.ipynb in Colab from Lesson 0. Manipulate controls, record the mini-experiment, and complete the teach-back/Chapter 2 recap. Next reading afterward: beginning of Chapter 3.
 
 ## Session protocol
 

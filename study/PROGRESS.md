@@ -4,7 +4,7 @@
 
 - Chapters completed: **1 / 20**
 - Current chapter: **Chapter 2**
-- Current resume point: **Beginning of Chapter 2**
+- Current resume point: **Chapter 2 interactive experiment, Lesson 0; learner recap pending**
 - Daily minimum: **5 pages**
 
 ## Daily log
@@ -13,6 +13,8 @@
 |---|---:|---:|---:|---:|---|---|---|
 | 2026-10-12 | 1 | — | — | 0 | N/A | Repository initialized | Beginning of Chapter 1 |
 | 2026-10-13 | 1 | Unknown | Chapter end | Unknown | N/A | Chapter complete; notes, figures, reflection, and recap recorded; reading dates/page count unspecified | Beginning of Chapter 2 |
+
+| 2026-10-15 | 2 | Unknown | Chapter end | Unknown | Learner book run reported; lab CPU run verified | Reading/book notebook complete; interactive experiment created and executed locally | Experiment Lesson 0, then recap |
 
 ## Chapter completion
 

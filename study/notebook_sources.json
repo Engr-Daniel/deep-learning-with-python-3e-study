@@ -4,11 +4,12 @@
   "notebooks": [
     {
       "chapter": 2,
-      "path": "chapters/ch02-mathematical-building-blocks/notebooks/chapter02_mathematical-building-blocks.ipynb",
+      "path": "chapters/ch02-mathematical-building-blocks/notebooks/chapter02_mathematical_building_blocks.ipynb",
       "source_url": "https://github.com/fchollet/deep-learning-with-python-notebooks/blob/fbf7f1bf2041093c4081e72544ec5905ace9dc8f/chapter02_mathematical-building-blocks.ipynb",
       "upstream_sha256": "87927adbfa5dd031d237f54edbc3703e8fbc909ec60ea3dc7e1c0c6e2ce5a16e",
-      "execution_status": "not run",
-      "upstream_code_unchanged": true
+      "execution_status": "learner-reported completed 2026-10-15; saved executed cells inspected",
+      "upstream_code_unchanged": false,
+      "learner_edits": "Renamed notebook; added rank/shape inspection of a rank-3 array and shape displays for slices. These are learner practice edits, not environment patches."
     },
     {
       "chapter": 3,

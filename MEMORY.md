@@ -20,7 +20,11 @@ Follow the official online chapter structure. Create only artifacts needed by th
 
 ## Notebook and runtime decision
 
-Use Google Colab for chapter code. Official third-edition notebooks come from fchollet/deep-learning-with-python-notebooks, pinned to fbf7f1bf2041093c4081e72544ec5905ace9dc8f. There are 16 study copies (Chapters 2-5 and 7-18); Chapters 1, 6, 19, and 20 have no published upstream notebooks. Preserve original code, document every environment change in NOTEBOOK_CHANGES.md, and record actual runs in RUN_LOG.md. Prepared copies are not evidence of execution. See study/NOTEBOOKS.md.
+Use Google Colab for chapter code. Official third-edition notebooks come from fchollet/deep-learning-with-python-notebooks, pinned to fbf7f1bf2041093c4081e72544ec5905ace9dc8f. There are 16 study copies (Chapters 2-5 and 7-18); Chapters 1, 6, 19, and 20 have no published upstream notebooks. Preserve original code, document every environment change in NOTEBOOK_CHANGES.md, and record actual runs in RUN_LOG.md. Prepared copies are not evidence of execution. Chapter 2 now has a learner-saved executed copy and declared practice edits; see its RUN_LOG.md. See study/NOTEBOOKS.md.
+
+## Teaching experiment preference
+
+Create original lesson notebooks within the current chapter scope. Prefer real datasets when useful and tiny synthetic examples when they expose the concept. Use sliders for weights, learning rate, and other visual explanations; require predictions, observations, and teach-back.
 
 ## Framework decision
 
@@ -29,9 +33,9 @@ Do not prematurely standardize everything to one backend. The book explicitly co
 ## Current resume state
 
 - Chapter: **2 — The mathematical building blocks of neural networks**
-- Progress: **Chapter 1 complete; Chapter 2 not started**
-- Resume point: **Beginning of Chapter 2**
-- Last updated: **2026-10-13**
+- Progress: **Chapter 1 complete; Chapter 2 reading/book notebook reported complete; original teaching lab built and CPU-executed; learner experiment and recap pending**
+- Resume point: **Chapter 2 experiment: Lesson 0 of experiments/chapter02_interactive_foundations_lab.ipynb, then teach-back and recap**
+- Last updated: **2026-10-15**
 
 ## Update policy
 
